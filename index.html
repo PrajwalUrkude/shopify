@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>
+  <body>
+    <div class="header">
+
+      <div class="section1 bg-white flex justify-around fixed z-50 w-[100%]">
+        <div class="first">
+          <img class="h-8 mt-5 md:h-14 md:m-2" src="./Images/fusion.png" alt="" />
+        </div>
+        <div id="nav" class="navbar hidden md:flex absolute md:relative top-14 md:right-0 right-0 bg-white rounded-md md:top-0 pl-2 pr-2">
+          <li
+            class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 "
+          >
+            <a href="#homes">Home</a>
+          </li>
+          <li
+            class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 mt-2 "
+          >
+            <a href="#shopping">Shop</a>
+          </li>
+          <li
+            class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 mt-2 "
+          >
+            <a href="#products">Products</a>
+          </li>
+          <li
+          class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 mt-2 "
+        >
+          <a href="#Review">Review</a>
+        </li>
+        <li
+            class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 mt-2 "
+          >
+            <a href="#Abouts">About</a>
+          </li>
+          <li
+            class="md:ml-4 cursor-pointer hover:text-red-400 text-xl font-semibold md:list-none md:mt-5 mt-2 pb-2"
+          >
+            <a href="#pages">Page</a>
+          </li>
+          
+         
+        </div>
+        <div
+          class="logos flex md:mt-[-7px] flex-wrap justify-end cursor-pointer"
+        >
+         <img 
+            id="inpbtn" class="h-6 hover:scale-75 ml-4 mt-7 md:h-6 md:ml-2"
+            src="./Images/searchlogo.jpeg"
+            alt="" 
+          />
+
+          <input id="inpbox" class="hidden border-2 border-black rounded-xl pl-4 text-2xl font-semibold absolute w-[85%] h-12 px-4 inset-x-0 mx-auto top-[5rem] " type="text" placeholder="Search">
+          
+          <a href="./index1.html"><img
+            class="h-6 hover:scale-75 ml-4 mt-7 md:h-6 md:ml-2"
+            src="./Images/account.jpeg"
+            alt=""
+          /></a>
+          <a href="./index2.html"> <img
+            class="h-6 hover:scale-75 ml-4 mt-7 md:h-6 md:ml-2"
+            src="./Images/cart.jpeg"
+            alt=""
+          /></a>
+          <img
+            id="menubtn" class="h-8 hover:scale-75 ml-4 mt-6 md:h-8 md:ml-2 md:hidden"
+            src="./Images/button.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section2 " id="homes">
+      <div
+        class="bg-cover bg-center w-full h-screen mx-auto bg-[url('./Images/banner-3.png')]"
+      >
+     
+        <p
+          class="absolute top-44 left-6 md:absolute text-red-600 font-semibold md:text-4xl md:top-52 md:left-40 "
+        >
+          Summer Collection
+        </p>
+        <h1
+          class="text-4xl font-bold absolute left-6 top-[200px] md:absolute md:left-40 md:top-60 md:text-7xl"
+        >
+          New Summer
+        </h1>
+        <h1
+          class="text-4xl font-bold absolute left-6 top-[240px] md:absolute md:left-40 md:top-[315px] md:text-7xl"
+        >
+          Collection 2024
+        </h1>
+        <h6
+          class="font-serif absolute left-6 top-[280px] md:absolute md:left-[165px] md:top-[400px] md:text-3xl"
+        >
+          There's Nothing like trend
+        </h6>
+        <button
+          class="btn absolute border-2 border-black rounded-md hover:rounded-xl px-3 left-6 top-[310px] md:top-[450px] md:left-44 md:font-semibold md:py-2 md:px-6 hover:bg-gray-300"
+        >
+         <a href="#shopping">Shop Now</a>
+        </button>
+      </div>
+    </div>
+
+
+
+    <div id="shopping" class="shopsection" >
+
+        <h1 class="text-5xl font-bold text-center mt-20">SHOPPING PRODUCTS:</h1>
+
+      <div class="allproductsone " >
+
+<div class="four md:flex flex-wrap md:mt-8 " >
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+          <img class="h-40 mt-4 mx-auto " src="./Images/mobiles.png" alt="" />
+          <h2 class="font-bold text-center mt-4 text-xl">Mobiles</h2>
+          <p class="text-center mx-6 font-semibold">Get up to 40% OFF on Mobiles at Shopify.in. Shop from a wide Range or wide selection of Mobile Phones
+            <span id="seemore1" class="hidden" > from Samsung, OnePlus, Redmi, Realme, Nokia more at the best prices.</span>
+          </p>
+          <p id="mobmore1" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer"> See More</p>
+          <div class="btns flex justify-evenly">
+            <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+            <a href="./mobiles.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+          </div>
+        </div>
+        
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/Fashon.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Fashion</h2>
+            <p class="text-center mx-6 font-semibold">Transform Your Wardrobe & Treat Yourself To Something New With Fashionable Accessories.Walk 
+              <span id="seemore2" class="hidden"> In Style With Clothes That Fit Your Personality and Size. Place Your Order!</span>
+            </p>
+            <p id="fashmore2" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./dress.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/deals.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Deals</h2>
+            <p class="text-center mx-6 font-semibold">Trending Deals · 53 % OFF. Embroidered Kurta with Pants & Dupatta · 50 % OFF. Buds & Beauty products
+              <span id="seemore3" class="hidden"> ,Shoes , Body Lotion · 53 % OFF. realme Bluetooth ,Mobile Phones...
+               </span>
+            </p>
+            <p id="dealmore3" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Deals.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-36 mt-4 mx-auto mix-blend-color-burn opacity-100" src="./Images/shoes.png" alt="" />
+            <h2 class="font-bold text-center mt-8 text-xl ">Shoes</h2>
+            <p class="text-center mx-6 font-semibold">Shoes Online- Shop shoes online for Men, Women & Kids at 70% Discount in BFF.Shop from collection
+              <span id="seemore4" class="hidden"> of shoes available in various brands,like nike puma Jordan and more .
+              </span>
+            </p>
+            <p id="shoemore4" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Shoes.html"> <button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="four1 md:flex flex-wrap md:mt-10">
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/electronics.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Electronics</h2>
+            <p class="text-center mx-6 font-semibold">Best Online Shopping site for all Electronic Appliances. Buy Electronic Appliances Online 
+              <span id="seemore5" class="hidden">at Lowest Prices Online at Shopify Online Shopping. Buy with an FREE Shipping.
+               </span>
+            </p>
+            <p id="electricmore5" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Electronics.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/home.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Home Appliance's</h2>
+            <p class="text-center mx-6 font-semibold">Buy Jug, Glass & Tray Sets Online: Complete you Kitchen Utensils by having 
+              <span id="seemore6" class="hidden">hassle-free gas stoves on TTK Prestige website and you can explore the latest collection on Shopify</span>
+            </p>
+            <p id="homemore6" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Home.html"> <button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/beauty.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Beauty</h2>
+            <p class="text-center mx-6 font-semibold">Buy cosmetics & beauty products online from Shopify,the online shopping
+              <span id="seemore7" class="hidden"> store. Browse makeup, health products & more from top beauty brands.
+               </span>
+            </p>
+            <p id="beautymore7" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./beauty.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto mix-blend-color-burn opacity-100" src="./Images/watch.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Watches</h2>
+            <p class="text-center mx-6 font-semibold">Online shopping for Watches from a great selection of Wrist Watches like Titan Timewear,
+              <span id="seemore8" class="hidden"> Fashion Smartwatches  like boAt, Fire boltt and more at everyday low prices.
+               </span>
+            </p>
+            <p id="watchmore8" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Watch.html"> <button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+        </div>
+
+<div class="four2 md:flex md:mt-10 flex-wrap">
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/furniture.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Furniture</h2>
+            <p class="text-center mx-6 font-semibold">At Shopify, we offer a wide range of study room furniture, from shelves and cabinets
+              <span id="seemore9" class="hidden"> to tables and chairs, and more. Opt for a furniture that is eye-pleasing ...
+               </span>
+            </p>
+            <p id="furnmore9" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./furn.html"> <button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/toys.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Toys</h2>
+            <p class="text-center mx-6 font-semibold">Toys For Boys & Girls: Shop for Gifts For Kids online at best prices in India. Choose from 
+              <span id="seemore10" class="hidden">a wide range of different types of Toys for Boys & Girls at Shopify.in.
+               </span>
+            </p>
+            <p id="toymore10" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Toys.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+          
+        <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/pones.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Accessories</h2>
+            <p class="text-center mx-6 font-semibold">Shopify.in: Buy mobile phone accessories online for smartphones, android phones, 
+              <span id="seemore11" class="hidden">dual sim phones, touchscreen phones, and more for Samsung, Nokia, Micromax...
+               </span>
+            </p>
+            <p id="accessmore11" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./Accessory.html"> <button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+
+          <div class="shoppingsection border-2 border-black w-72 mx-auto bg-[#e4e4e4] mt-4 hover:shadow-xl hover:shadow-gray-700 hover:scale-110 duration-200">
+            <img class="h-40 mt-4 mx-auto " src="./Images/lapi.png" alt="" />
+            <h2 class="font-bold text-center mt-4 text-xl">Laptops</h2>
+            <p class="text-center mx-6 font-semibold">Get Best Laptop Prices Online in India. Choose from  Ultra-thin Laptop,Gaming Laptop 
+              <span id="seemore12" class="hidden"> from brands like HP, Dell, Lenovo, Acer, and avail various great offers.
+              </span>
+            </p>
+            <p id="lapmore12" class="text-blue-800 font-semibold text-center text-xl hover:scale-75 cursor-pointer">See More</a></p>
+            <div class="btns flex justify-evenly">
+              <!-- <button class="btn1 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2 border-black py-2">Pay With EMI</button> -->
+              <a href="./laptop.html"><button class="btn2 font-semibold text-white bg-[#767676] hover:bg-slate-800 px-4 rounded-lg mt-3 mb-3 border-2  border-black py-2 w-64">Buy Now</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section3 scroll-smooth" id="products">
+      <div class="productinfo text-center mt-5">
+        <h1
+          class="text-2xl font-semibold mt-12 md:text-6xl md:font-bold md:flex md:justify-center"
+        >
+          Our Trending <span class="text-red-600 md:ml-3">Products</span>
+        </h1>
+      </div>
+      <div class="allproduct">
+        <div
+          class="onest md:flex md:flex-wrap md:justify-evenly md:mt-10 "
+        >
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mx-auto md:mt-7 mt-4 rounded-md border-2 border-black"
+              src="./Images/1.jpg"
+              alt=""
+            />
+
+            <p class="text-2xl font-semibold mt-1 ml-2">Sale</p>
+            <img
+              class="h-4 mx-auto mt-2"
+              src="./Images/heart.png"
+              alt=""
+            />
+            <img class="h-4 mx-auto mt-2" src="./3_stars.png" alt="" />
+            <h2 class="ml-2 font-bold text-xl mt-2">Half Running Set</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl md:mt-4 font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+
+           <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mx-auto mt-7 rounded-md border-2 border-black"
+              src="./Images/2.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">New</p>
+            <img class="h-4 mx-auto mt-2" src="./Images/heart.png" alt="" />
+            <img class="h-4 mt-2 mx-auto" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Formal Men Lowers</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-3"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mx-auto mt-7 rounded-md border-2 border-black"
+              src="./Images/3.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">Sale</p>
+            <img class="h-4 mx-auto mt-2" src="./Images/heart.png" alt="" />
+            <img class="h-4 mx-auto mt-2" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Half Running Suit</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mx-auto mt-7 rounded-md border-2 border-black"
+              src="./Images/4.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">Hot</p>
+            <img class="h-4 mx-auto mt-2" src="./Images/heart.png" alt="" />
+            <img class="h-4 mx-auto mt-2" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Half Fancy Lady Dress</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="twoest md:flex md:justify-evenly flex-wrap mt-3">
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mt-7 mx-auto rounded-md border-2 border-black"
+              src="./Images/5.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">New</p>
+            <img class="h-4 mt-2 mx-auto" src="./Images/heart.png" alt="" />
+            <img class="h-4 mt-2 mx-auto" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Flix FLox Geans</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mt-7 mx-auto rounded-md border-2 border-black"
+              src="./Images/6.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">Hot</p>
+            <img class="h-4 mt-2 mx-auto" src="./Images/heart.png" alt="" />
+            <img class="h-4 mt-2 mx-auto" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Fancy Salwar Suits</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mt-7 mx-auto rounded-md border-2 border-black"
+              src="./Images/7.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">Sale</p>
+            <img class="h-4 mt-2 mx-auto" src="./Images/heart.png" alt="" />
+            <img class="h-4 mt-2 mx-auto" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Printed Straight Kurta</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 border-black mt-2"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="one text-center hover:scale-110 duration-300">
+            <img
+              class="h-96 mt-7 mx-auto rounded-md border-2 border-black"
+              src="./Images/8.jpg"
+              alt=""
+            />
+            <p class="text-2xl font-semibold mt-1 ml-2">New</p>
+            <img class="h-4 mt-2 mx-auto" src="./Images/heart.png" alt="" />
+            <img class="h-4 mt-2 mx-auto" src="./3_stars.png" alt="" />
+
+            <h2 class="ml-2 font-bold text-xl mt-2">Collot Full Dress</h2>
+            <p class="font-semibold ml-2 mt-1">$99-$129</p>
+            <button
+              class="bg-blue-50 hover:bg-zinc-400 text-xl font-semibold rounded-md border-2 px-4 ml-2 mt-2 border-black"
+            >
+              Buy Now
+            </button>
+      
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="section4 bg-gray-200" id="Review">
+
+
+      <div class="both4 pb-6 mx-auto">
+      <div class="client1 text-center font-bold text-4xl mt-16 pt-4">
+        Clients Review's
+      </div>
+
+      <div class="both3 md:flex">
+
+      <div class="client   border-2 border-black  flex flex-col flex-wrap mx-4 md:mt-4 rounded-lg mt-3 bg-[#f6f6f6] text-black md:hover:bg-[#e4e4e4] md:hover:text-black duration-500">
+        <img
+          class="mt-5 h-48 mx-auto border-2 border-black hover:border-red-600 hover:scale-110 rounded-full cursor-pointer"
+          src="./Images/team-1.jpg"
+          alt=""
+        />
+        <p
+          class="text-xl font-medium text-center md:text-center md:mx-8 md:mt-4 mt-4 mx-3"
+        >The best way to start is by looking at other success stories in the ecommerce world.
+         This will give you a good idea of how to replicate their triumph.
+        To save you time, I've rounded up some of the best examples and from all types of ecommerce 
+        brands.it can drive at content.
+        </p>
+        <h1 class="text-4xl mt-5 font-bold text-center hover:scale-x-110">
+          Mark Jevenue
+        </h1>
+        <h2 class="text-xl mt-2 font-semibold text-center">CEO of Addle</h2>
+      </div>
+
+      <div class="client  border-2 border-black flex flex-col flex-wrap mx-4 md:mt-4 rounded-lg  mt-3 bg-[#f6f6f6] text-black md:hover:bg-[#e4e4e4] md:hover:text-black duration-500">
+        <img
+          class="mt-5 h-48 mx-auto border-2 border-black hover:border-red-600 hover:scale-110 rounded-full cursor-pointer"
+          src="./Images/ceo2.jpg"
+          alt=""
+        />
+        <p
+          class="text-xl font-medium text-center md:text-center md:mx-8 md:mt-4 mt-4 mx-3"
+        >
+        As an online store selling skincare products, Blume is all too aware of the pain
+         points and desires of its target market.This is obvious when you look at their content,
+          as it speaks directly to a common struggle confidence.It'd be easy to create content about
+           their expoliation products.
+        </p>
+        <h1 class="text-4xl mt-5 font-bold text-center hover:scale-x-110">
+          Jark Yu
+        </h1>
+        <h2 class="text-xl mt-2 font-semibold text-center">CEO of Corem</h2>
+      </div>
+      <div class="client border-2 border-black flex flex-col flex-wrap mx-4 md:mt-4 rounded-lg  mt-3 bg-[#f6f6f6] text-black md:hover:bg-[#e4e4e4] md:hover:text-black duration-500">
+        <img
+          class="mt-5 h-48 mx-auto border-2 border-black hover:border-red-600 hover:scale-110 rounded-full cursor-pointer"
+          src="./Images/ceo-3.jpg"
+          alt=""
+        />
+        <p
+          class="text-xl font-medium text-center md:text-center md:mx-8 md:mt-4 mt-4 mx-3"
+        >
+        95% of our decisions are based on our subconscious, in which our emotions are heavily
+         involved. So, creating content that hits these sensitive spots is a surefire way to 
+         guide the customer journey.By sharing articles about dairy-free and vegan using 
+         their products,
+        </p>
+        <h1 class="text-4xl mt-5 font-bold text-center hover:scale-x-110">
+          S.T.Paul
+        </h1>
+        <h2 class="text-xl mt-2 font-semibold text-center">CEO of Loret</h2>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="section5" id="Abouts">
+      <div class="update text-4xl mt-5 font-bold text-center">New Updates</div>
+
+      <div class="both flex flex-wrap mt-5 mx-auto">
+
+
+
+
+        <div class="img1 mt-2  w-[360px] mx-auto">
+          <img
+            class=" h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto "
+            src="./Images/bl-1.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg ">15-Mar-2019</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg ">
+           
+Sell everywhere
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Sell online, in person and across channels with ease. 
+            Adapt and scale yourbusiness with features like Wix POS,
+             a branded mobile app,dropshipping and more.
+          </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg cursor-pointer ">Continue Reading...</h3>
+        </div>
+
+       
+
+
+        <div class="img1 mt-2  w-[360px] mx-auto">
+          <img
+            class="h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto"
+            src="./Images/bl-2.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg">09-Sep-2020</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg">
+            Manage everything from one place
+
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Gain complete control of your business by seamlessly managing
+             all your inventory,orders and sales, from across channels, 
+             directly from your Wix dashboard.
+          </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg cursor-pointer">Continue Reading...</h3>
+        </div>
+        <div class="img1 mt-2  w-[360px] mx-auto">
+          <img
+            class="h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto"
+            src="./Images/bl-3.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg">21-Jan-2022</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg">
+            Grow with limitless scalability
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Optimize site traffic with built-in SEO tools,
+             marketing automations and ad campaigns With 99.98% uptime, your
+              store can handle record traffic and sales.
+          </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg cursor-pointer">Continue Reading...</h3>
+        </div>
+      </div>
+      <div class="both flex flex-wrap mt-3">
+        <div class="img1 mt-2  w-[360px] mx-auto">
+          <img
+            class="h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto "
+            src="./Images/random1.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg">26-Aug-2023</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg">
+            Let's Start sale on summer vacation
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Overall it has fulfilled all the needs for our online store,
+             and we will recommend it to anyone whose time and design are
+              a priority.”
+          </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg">Continue Reading...</h3>
+        </div>
+        <div class="img1 mt-2  w-[360px] mx-auto">
+          <img
+            class="h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto"
+            src="./Images/random2.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg">11-May-2022</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg">
+            Illustration-like product images
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Strikingly is perfectly optimized for selling. Add
+             shipping, coupons, membership log-ins,and more.
+              Whether you're selling a single product.
+          </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg">Continue Reading...</h3>
+        </div>
+        <div class="img1 mt-2  w-[360px] mx-auto ">
+          <img
+            class="h-64 rounded-md mt-4 hover:scale-110 duration-500 px-2 mx-auto"
+            src="./Images/random3.png"
+            alt=""
+          />
+          <p class="font-semibold mt-1 pl-3 text-lg">02-Feb-2018</p>
+          <h2 class="font-bold mt-1 pl-3 text-lg">
+            Implement beautiful consistent design.
+          </h2>
+          <p class="mt-1 pl-3 font-semibold">
+            Its interactive homepage reveals how the products
+             cutting-edge features and durability help aviators
+              from different generations.        </p>
+          <h3 class="font-bold mt-2 pl-3 text-lg">Continue Reading...</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section6" id="pages">
+      <div
+        class="alllist md:flex md:justify-evenly bg-slate-100 flex-wrap md:mt-16 mb-1"
+      >
+        <div class="list1 mt-3">
+          <img class="h-8 mt-4 ml-6" src="./Images/Shopify-Logo.png" alt="" />
+          <p class="ml-6 mt-2 hover:text-red-500">3245 Grant Street Longiew,</p>
+          <p class="ml-6 mt-2 hover:text-red-500">
+            TX United Kingdom765378 01601348732
+          </p>
+          <p class="ml-6 mt-2 hover:text-red-500">prajwalurkude789@gmail.com</p>
+          <div class="logos flex ml-4">
+            <img class="h-8 mt-[10px]" src="./Images/Facebook 2x.png" alt="" />
+            <img class="h-8 mt-3" src="./Images/Twitter 2x.png" alt="" />
+            <img class="h-7 mt-3 ml-2" src="./Images/YouTube 2x.png" alt="" />
+            <img class="h-6 mt-3 ml-4" src="./Images/in.png" alt="" />
+          </div>
+        </div>
+
+        <div class="list2">
+          <h1 class="font-bold text-xl ml-7 mt-4">SUPPORT</h1>
+          <p class="ml-7 mt-2 hover:text-red-500">Contact Us</p>
+          <p class="ml-7 mt-2 hover:text-red-500">About Page</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Size Guide</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Shopping & Returns</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Privacy</p>
+        </div>
+
+        <div class="list2">
+          <h1 class="font-bold text-xl ml-7 mt-4">SHOP</h1>
+          <p class="ml-7 mt-2 hover:text-red-500">Men's Shopping</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Women's Shopping</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Kid's Shopping</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Furniture</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Discount</p>
+        </div>
+
+        <div class="list2">
+          <h1 class="font-bold text-xl ml-7 mt-4">COMPANY</h1>
+          <p class="ml-7 mt-2 hover:text-red-500">About</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Blog</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Affiliate</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Blog's</p>
+          <p class="ml-7 mt-2 hover:text-red-500">Login</p>
+        </div>
+
+        <div class="list2">
+          <h1 class="font-bold text-xl ml-7 mt-4">SUBSCRIBE</h1>
+          <p class="ml-7 mt-3 hover:text-red-500">
+            Receive Updates,Hot Deals,Discount in Inbox Daily
+          </p>
+          <p class="ml-7 mt-3 hover:text-red-500">
+            Trusted by 200,000+ entrepreneurs like you.
+          </p>
+          <p class="ml-7 mt-3 hover:text-red-500">
+            This website was designed with Shopify.
+          </p>
+          <p class="ml-7 mt-3 hover:text-red-500">
+            © 2006 - 2024 Shopify.com, Inc
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>

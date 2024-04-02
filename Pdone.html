@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Success</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        @keyframes shut {
+            0%{
+               transform: translateY(-100%); 
+            }
+            100%{
+                transform: translateY(0%);
+            }
+        }
+
+        .anime{
+            animation: shut 3s 1;
+        }
+    </style> -->
+</head>
+<body>
+    
+
+    <div class="navbar bg-white h-14">
+        
+        <div class="both flex justify-between w-[98%] ">
+        <div class="header flex h-8 md:h-10 md:ml-5">
+        <img class="h-8 md:mt-1 mt-2 md:h-10 md:ml-2 hover:scale-90" src="./Images/arrow.png" alt="" id="backImg" >
+            <h2 class="text-xl font-semibold md:mt-2  md:font-extrabold mt-[8px] ml-2 text-black">Order Summary</h2>
+        </div>
+            <img class="h-12 mt-1 hidden md:block lg:block md:mr-32" src="./Images/fusion.png" alt="" />
+            <a href="./index.html"> <img class="mix-blend-multiply h-11 hover:-scale-x-75" src="./Images/home done.png"></a>
+        </div>
+
+    </div>
+
+    <div class="completePage h-[79vh]"> 
+
+        <div class=" anime greenBg w-[100%] h-[300px] md:h-[470px] -z-50  hover:h-[7rem] absolute top-[3rem] "></div>
+
+        <div class="done ">
+            <img class="done2 h-20 mt-6 mx-auto animate-pulse z-1 md:h-48 md:mt-4 " src="./Images/done.png"></img>
+            <h1 class="md:font-extrabold md:text-3xl  font-bold text-xl md:mt-2 text-center mt-2">Thank You</h1>
+            <h1 class=" md:font-extrabold md:text-3xl font-bold text-xl md:mt-2 text-center ">Your Payment Was Successful</h1>
+            <p id="finalprice" class="font-bold text-xl text-center md:font-extrabold md:text-3xl md:mt-2"></p>
+            <p class="md:font-extrabold md:text-xl mx-auto text-lg font-semibold w-72 md:mx-auto text-center  md:mt-2">Thankyou for your Payment, We will be in contact withmore details shortly.</p>
+        </div>
+    </div>
+
+    <a href="./index.html"><button class="md:font-bold md:text-3xl md:h-14 md:mt-6 font-semibold text-2xl hover:bg-yellow-200 hover:rounded-sm bg-amber-100  border-black w-[100%] px-7  text-black rounded-sm ">Done</button></a>
+    
+<script src="Pdone.js"></script>
+</body>
+</html>

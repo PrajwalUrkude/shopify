@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    // "./index.html",
+    // "./address.html",
+    // "./mobiles.html",
+    // "./Accessory.html",
+    // "./beauty.html",
+    // "./Deals.html",
+    // "./dress.html",
+    // "./Electronics.html",
+    // "./frun.html",
+    // "./Home.html",
+    // "./index1.html",
+    // "./index2.html",
+    // "./index7.html",
+    // "./laptop.html",
+    // "./payment.html",
+    // "./Watch.html",
+    // "./Toys.html",
+    // "./Shoes.html",
+    // "./Pdone.html",
+    "./*.html",
+    "./src/**/*.{js,ts,jsx,tsx,html}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
