@@ -48,12 +48,15 @@ const setInSessionStorage = () => {
     const userAdd = sessionStorage.setItem('add',address)
     const userNo = sessionStorage.setItem('num',number)
     
+    let popup = document.getElementById("Pops")
+
     
     if(!uName || !address || !number){
-        alert("please fill information in Input boxes")
+        // alert("please fill information in Input boxes")
+        popup.classList.toggle("hidden")
     }else{
         window.location.href = './payment.html'
-        alert("Information added successfully")
+        // alert("Information added successfully")
         
     }
     
